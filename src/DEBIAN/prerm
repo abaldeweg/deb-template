@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+msg="prerm"
+echo $msg
+
+exit 0

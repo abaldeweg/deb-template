@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+msg="preinst"
+echo $msg
+
+exit 0

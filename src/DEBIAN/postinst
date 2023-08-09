@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+msg="postinst"
+echo $msg
+
+exit 0

@@ -1,0 +1,11 @@
+Package: name
+Version: 0.0.0
+Section: non-free/misc
+Priority: optional
+Architecture: all
+Depends:
+Installed-Size: 40
+Maintainer: André Baldeweg <a@baldeweg.org>
+Homepage: http://baldeweg.org/
+Description: Short description of app
+ This is a longer description of the app.
