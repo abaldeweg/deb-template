@@ -12,6 +12,16 @@
 		"ghcr.io/EliiseS/devcontainer-features/bash-profile:1": {
 			"command": ". /etc/bash_custom"
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"EditorConfig.EditorConfig",
+				"DavidAnson.vscode-markdownlint",
+				"christian-kohler.path-intellisense",
+				"timonwong.shellcheck"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
