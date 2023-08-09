@@ -1,0 +1,24 @@
+#!/bin/bash
+
+alias ll='ls -alF'
+
+alias push='git push origin --follow-tags'
+
+function tag()
+{
+  if [[ $(git status -s) ]];
+    then
+      echo "Git repo has uncommitted changes."
+      git status -s;
+    else
+      git tag -a "v${1}" -m "v${1}";
+  fi
+}
+
+function build ()
+{
+  if [ -f Makefile ]
+    then
+      make build
+  fi
+}
